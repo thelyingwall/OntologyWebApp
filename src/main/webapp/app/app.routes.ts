@@ -9,7 +9,7 @@ const routes: Routes = [
   {
     path: '',
     loadComponent: () => import('./home/home'),
-    title: 'home.title',
+    title: 'Ontology Webapp',
   },
   {
     path: '',

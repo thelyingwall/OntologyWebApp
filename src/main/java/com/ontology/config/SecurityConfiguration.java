@@ -65,6 +65,7 @@ public class SecurityConfiguration {
                     .requestMatchers("/resources/**").permitAll()
                     .requestMatchers("/swagger-ui/**").permitAll()
                     .requestMatchers("/api/authenticate").permitAll()
+                    .requestMatchers("/api/ontology/**").permitAll()
                     .requestMatchers("/api/admin/**").hasAuthority(AuthoritiesConstants.ADMIN)
                     .requestMatchers("/api/**").authenticated()
                     .requestMatchers("/v3/api-docs/**").hasAuthority(AuthoritiesConstants.ADMIN)

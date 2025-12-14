@@ -1,7 +1,6 @@
 package com.ontology.web.rest;
 
 import com.ontology.security.SecurityUtils;
-import com.ontology.security.SecurityUtils;
 import java.security.Principal;
 import java.util.Set;
 import java.util.stream.Collectors;

@@ -189,6 +189,12 @@
             <artifactId>mapstruct</artifactId>
             <version>${mapstruct.version}</version>
         </dependency>
+        <dependency>
+          <groupId>org.apache.jena</groupId>
+          <artifactId>apache-jena-libs</artifactId>
+          <version>4.10.0</version>
+          <type>pom</type>
+        </dependency>
     </dependencies>
 
     <build>
